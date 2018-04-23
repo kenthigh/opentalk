@@ -1,0 +1,1181 @@
+﻿body {
+    padding-top: 60px;
+    font-family: "Open Sans",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;
+        text-align: justify;
+}
+
+ html, #map-canvas {
+            width: 100%;
+            height: 450px;
+            margin: 0px;
+            padding: 0px;
+        }
+@media only screen and (min-width: 640px) {
+    .navbar-nav {
+        margin-left: 5%;
+    }
+}
+
+ul {
+    list-style: none;
+    padding:0;
+}
+.box_123 {
+    display: inline-block;
+    vertical-align: middle;
+}
+.my_baoming_btn {
+    margin-left: 80px;
+    position: relative;
+    top: -13px;
+}
+.banner_3_p {
+    font-size: 18px !important;
+    font-weight: bold;
+    margin-bottom: 10px !important;
+}
+.navbar-default {
+    background: rgba(255,255,255,0.9);
+}
+
+.jiabin_block {
+    width: 500px;
+    float: left;
+}
+.jiabin_block p {
+    padding-left: 120px;
+}
+.j_block_m_r {
+    margin-right: 167px;
+}
+
+#content-pick {
+    background-color: #fafafa;
+    margin-top: 60px;
+    padding-bottom: 40px;
+}
+
+#content-pick-ii {
+    padding-bottom: 40px;
+}
+
+#persons {
+    background-color: #fafafa;
+}
+
+#agenda {
+    padding-bottom: 40px;
+}
+
+#map {
+    background-color: #fafafa;
+}
+
+#baoming {
+    background-color: #fafafa;
+}
+
+.container {
+    min-width: 1180px;
+}
+
+.clear {
+    clear: both;
+}
+
+@media only screen and (max-width: 640px) {
+    .navbar-nav {
+        /*margin-left:  0px;*/
+    }
+
+        .navbar-nav li {
+            margin-left: 0px;
+        }
+
+    .container {
+        min-width: 0 !important;
+    }
+}
+
+
+.navbar-nav li {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-weight: 400;
+}
+
+/* .banner {
+    width: 100%;
+    height: auto;
+}
+
+    .banner .pc_bp {
+        background: url(../imgs/banner.jpg) repeat-x;
+        margin: 0 auto;
+        height: 826px;
+        background-position-x: center;
+    }
+
+        .banner .pc_bp img {
+            display: none;
+            width: 100%;
+        }
+
+@media only screen and (max-width: 640px) {
+    .banner .pc_bp {
+        width: 100%;
+        height: auto;
+    }
+
+        .banner .pc_bp img {
+            display: block;
+            width: 100%;
+        }
+}
+ */
+
+/*新书目录*/
+.title {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 640px) {
+    .title {
+        text-align: center;
+        margin-top: 70px;
+    }
+}
+
+.title_blue_line {
+    position: relative;
+}
+
+.blue_line {
+    content: " ";
+    width: 81px;
+    height: 5px;
+    background-color: #339de8;
+    margin: 0 auto;
+}
+
+#newbook-catalog .content {
+    margin: 0 3%;
+}
+
+    #newbook-catalog .content p {
+        margin-top: 4%;
+        text-align: justify;
+        font-size: 14px;
+        font-weight: 100;
+        line-height: 20px;
+    }
+
+
+/*内容节选*/
+.whatsinbook {
+    margin-top: 50px;
+    min-width: 970px;
+}
+
+.timet_con {
+    width: 233px;
+    margin: 0 auto;
+}
+
+.time_detail {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.timet_title {
+    color: #e57300;
+    text-align: center;
+}
+
+.time_detail li {
+    margin-bottom: 30px;
+}
+
+    .time_detail li span {
+        font-family: 'Microsoft YaHei';
+        font-size: 16px;
+    }
+
+.mr {
+    margin-right: 20px;
+}
+
+@media only screen and (max-width: 640px) {
+    .whatsinbook {
+        margin-top: 50px;
+        min-width: 0;
+    }
+}
+
+
+.a_item {
+    float: left;
+    display: inline-block;
+    width: 23.5%;
+}
+
+.bubble {
+    width: 100%;
+    height: 79px;
+    background-position-x: center;
+    background-size: 100% 100%;
+    background-repeat: repeat-x;
+    background-image: url("../imgs/bubble.jpg");
+    position: relative;
+    font-size: 18px;
+    font-family: "Open Sans",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;
+        text-align: justify;
+    font-weight: lighter;
+    line-height: 22px;
+}
+
+.bp_i {
+    position: absolute;
+    color: white;
+    top: 10px;
+    left: 30px;
+}
+
+.bp_i_mobile {
+    color: white;
+    display: none;
+}
+
+.bp_ii {
+    position: absolute;
+    color: white;
+    top: 22px;
+    left: 14px;
+}
+
+.bp_iii {
+    position: absolute;
+    color: white;
+    top: 22px;
+    left: 36px;
+}
+
+.bp_vi {
+    position: absolute;
+    color: white;
+    top: 22px;
+    left: 44px;
+}
+
+.margin_2per {
+    margin-left: 2%;
+}
+
+.under_bubble {
+    margin-top: 18%;
+    padding-left: 4.4%;
+}
+
+    .under_bubble h4 {
+        font-family: "Open Sans",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;
+        text-align: justify;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .under_bubble p {
+        font-family: "Open Sans",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;
+        text-align: justify;
+        font-size: 12px;
+        font-weight: 100;
+        color: #a0a0a0;
+        line-height: 20px;
+    }
+
+@media only screen and (max-width: 640px) {
+    .bubble {
+        width: 100%;
+        background-image: url("../imgs_mobile/bubble_mobile.png");
+        text-align: center;
+    }
+
+        .bubble div {
+            padding-top: 22px;
+        }
+
+    .bp_i {
+        display: none;
+        position: initial;
+    }
+
+    .bp_i_mobile {
+        display: block;
+    }
+
+    .bp_ii {
+        position: initial;
+    }
+
+    .bp_iii {
+        position: initial;
+    }
+
+    .bp_vi {
+        position: initial;
+    }
+
+    .a_item {
+        float: none;
+        width: 100%;
+    }
+
+    .under_bubble {
+        margin-top: 1%;
+        padding-left: 4.4%;
+    }
+}
+
+#content-pick-ii .title h4 {
+    margin-top: 30px;
+}
+
+#content-pick-ii .content {
+    margin: 0 3%;
+}
+
+    #content-pick-ii .content p {
+        margin-top: 4%;
+        font-family: "Open Sans",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;
+        text-align: justify;
+        font-size: 14px;
+        font-weight: 100;
+        color: #a0a0a0;
+        line-height: 20px;
+    }
+
+.speak-list {
+    display:inline-block;
+    width:100%;
+}
+
+.margin_2dot5 {
+    margin: 2.7%;
+}
+
+.speak-list ul {
+    margin-top: 40px;
+}
+
+.speak-list li {
+    width: 18.5%;
+    float: left;
+    text-align: center;
+}
+
+    .speak-list li h3 {
+        margin: 0;
+        padding: 0;
+        font-family: "Open Sans",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;
+        text-align: justify;
+        font-size: 17px;
+        color: #339de8;
+        margin-top: 5px;
+    }
+
+    .speak-list li p {
+        margin: 0;
+        padding: 0;
+        font-family: "Open Sans",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;
+        text-align: justify;
+        font-size: 14px;
+        color: #414141;
+        margin-top: 5px;
+    }
+
+@media only screen and (max-width: 640px) {
+    .margin_2dot5 {
+        margin: 4%;
+    }
+
+    .speak-list li {
+        width: 35%;
+        text-align: center;
+    }
+
+    .speak-list ul {
+        margin-top: 20px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    .margin_2per {
+        margin-left: 0;
+    }
+}
+
+/*论坛议程*/
+.agenda-content {
+    margin-top: 40px;
+}
+
+.speech {
+    position: relative;
+    margin-left: 37%;
+    min-width: 611px;
+}
+
+.theme-title {
+    float: left;
+}
+
+.circle {
+    float: left;
+    margin-left: 8%;
+}
+
+.time-line {
+    float: left;
+    position: relative;
+}
+
+.greyline1::before {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
+    content: " ";
+    width: 1px;
+    background: #eee;
+    margin-left: -12.7px;
+    z-index: -1;
+}
+
+.greyline2::before {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
+    content: " ";
+    width: 0px;
+    background: #eee;
+    margin-left: -12.7px;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 640px) {
+    .time-line::before {
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        height: 100%;
+        content: " ";
+        width: 1px;
+        background: #eee;
+        margin-left: -12.6px;
+        z-index: -1;
+    }
+
+    .desk-meeting .time-line::before {
+        height: 1%;
+    }
+}
+
+.time-line ul {
+}
+
+.time-line li {
+    position: relative;
+}
+
+.time-during {
+    font-family: "Open Sans",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;
+        text-align: justify;
+    font-size: 14px;
+    color: #a0a0a0;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    color: #999;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.time-content {
+    /*position: absolute;
+    top: 0px;
+    left: 48%;*/
+    padding-left: 110px;
+}
+
+    .time-content p {
+        font-family: "Open Sans",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;
+        text-align: justify;
+        font-size: 14px;
+        color: #a0a0a0;
+    }
+
+.desk-meeting {
+    position: relative;
+    margin-left: 37%;
+    min-width: 611px;
+}
+
+.address {
+    font-family: "Open Sans",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;
+        text-align: justify;
+    color: #999;
+    margin-bottom: 30px;
+}
+
+    .address img {
+        margin-right: 1%;
+    }
+
+.map {
+    /*background: url(../imgs/map.jpg) repeat-x;*/
+    /*width: 100%;
+    height: 444px;
+    margin-top: 40px;
+    background-position-x: center;*/
+}
+
+.reminder {
+    width: 50%;
+    display: inline-block;
+    padding-right: 106px;
+    border-right: 1px solid #e5e5e5;
+    padding-bottom: 30px;
+}
+
+    .reminder p {
+        line-height: 25px;
+        font-family: "Open Sans",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;
+        text-align: justify;
+        font-size: 14px;
+        color: #a0a0a0;
+    }
+
+@media only screen and (max-width: 640px) {
+
+    ul {
+        padding: 0;
+    }
+
+    .reminder {
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 7%;
+    }
+
+
+        .reminder p {
+            line-height: 25px;
+            font-family: "Open Sans",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;
+        text-align: justify;
+            font-size: 14px;
+            color: #a0a0a0;
+        }
+
+    .speech {
+        min-width: 300px;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .desk-meeting {
+        min-width: 300px;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .time-content {
+        /*position: absolute;
+    top: 0px;
+    left: 48%;*/
+        padding-left: 0;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .circle {
+        margin-left: 2%;
+    }
+
+    .time-during {
+        font-size: 12px;
+    }
+
+    b {
+        font-size: 12px;
+    }
+
+    .time-content p {
+        font-size: 12px;
+    }
+}
+
+/*表单*/
+.rlist {
+    float: right;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+    .rlist table {
+        width: 100%;
+        max-width: 410px;
+    }
+
+        .rlist table td {
+            vertical-align: top;
+            padding: 5px 0;
+            font-size: 12px;
+            color: #a0a0a0;
+            font-family: '宋体';
+            vertical-align: baseline;
+        }
+
+        .rlist table tr {
+            height: 60px;
+        }
+
+        .rlist table td span {
+            color: #D80606;
+        }
+
+    .rlist .input {
+        border: 1px solid #B4B4B4;
+        width: 320px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .rlist .textarea {
+        border: 1px solid #B4B4B4;
+        width: 320px;
+        height: 180px;
+    }
+
+    .rlist .submit {
+        margin-left: 54%;
+        background-color: #339de8;
+        font-family: "Open Sans",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;
+        text-align: justify;
+        font-size: 15px;
+        width: 130px;
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: white;
+    }
+
+@media only screen and (max-width: 640px) {
+    .rlist {
+        widtH: 90%;
+        margin: 0 auto 20px;
+    }
+
+        .rlist .input, #bd .right .rlist .textarea {
+            width: 100%;
+        }
+
+        .rlist table {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .rlist .submit {
+            float: right;
+            margin: 0;
+        }
+}
+
+	.green{
+		color:#37a939;
+	}
+#ft {
+    background: #535353;
+    width: 100%;
+    height: auto;
+    padding: 18px 0 4px 0;
+}
+
+    #ft .wp {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #ft p {
+        font-family: "Open Sans",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;
+        text-align: justify;
+        font-size: 13px;
+        color: white;
+        font-weight: lighter;
+        text-align: center;
+    }
+
+.ftc_p {
+    display: block;
+}
+
+.ftc_m {
+    display: none;
+}
+.timelinecon{
+    position:relative;
+    left:37px;
+}
+@media only screen and (max-width: 640px) {
+    .ftc_p {
+        display: none;
+    }
+
+    .ftc_m {
+        display: block;
+        margin-right: 2%;
+    }
+    .timelinecon{
+        width: 100%;
+        position:static;
+    }
+    .little_adjust_p{
+        width: auto !important;
+    }
+}
+
+
+
+
+.little_adjust_p{
+    width: 560px;
+}
+
+
+.banimg{
+    position: relative;
+    height: 340px;
+}
+
+.banner {
+	/* background-image: url('../imgs/bg.png'); */
+	background-repeat: repeat;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-bottom: 10px
+}
+
+.ban_title {
+    padding-top: 40px;
+    font-size: 18px;
+    color: #e57300;
+}
+
+.ban_left {
+    width: 624px;
+    padding-top: 4px;
+    float: left;
+    text-align: justify;
+    color:#737373;
+}
+
+.left_title {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 13px;
+    color:#3E3E3E;
+}
+
+.ban_left .ban_wenzi p {
+    font-size: 14px;
+    margin-bottom: 33px;
+    font-family: "Open Sans",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;
+        text-align: justify;
+}
+
+.about_title{
+    color:#e57300;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+.aboutopen .dd {
+    width: 601px;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: justify;
+
+}
+
+.ban_right {
+    float: right;
+}
+
+.btn_wrap {
+    margin-top: 5px;
+}
+
+    .sign_btn {
+        background-color: #e57300;
+        padding: 9px 50px;
+        border-radius: 6px;
+        text-decoration: none !important;
+        color: white;
+        font-weight: 500;
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-family: "Microsoft YaHei";
+        line-height: 42px;
+        transition:all 100ms linear;
+        -moz-transition: all 100ms linear; /* Firefox 4 */
+        -webkit-transition: all 100ms linear; /* Safari 和 Chrome */
+        -o-transition:all 100ms linear; /* Opera */
+    }
+    .sign_btn:hover{
+        background-color: #FF8509;
+        color: white;
+    }
+
+
+
+.below_ban {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+    .below_ban p {
+        font-size: 16px;
+        color: #1e1e1e;
+        margin-top: 14px;
+    }
+
+.time {
+    background: url(../images/clock.png) no-repeat;
+    padding-left: 56px;
+    float: left;
+    width: 45%;
+    height: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    background-position: 0px 6px;
+}
+
+.address {
+    background: url(../images/location.png) no-repeat;
+    padding-left: 57px;
+    float: left;
+    height: 61px;
+    width: 45%;
+    margin-bottom: 30px;
+    background-position: 0px 3px;
+}
+
+.sponsor {
+    background: url(../images/sponsor.png) no-repeat;
+    padding-left: 54px;
+    float: left;
+    height: 57px;
+    margin-right: -20px;
+}
+
+    .sponsor span {
+        display: inline-block;
+        height: 42% vertical-align:bottom;
+    }
+
+    .sponsor img {
+        margin-right: 20px;
+    }
+
+.address p {
+    margin-bottom: 0;
+}
+
+.jiabin {
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.speeker{
+     background-color: #f0f0f0;
+}
+
+.jia_title {
+    text-align: center;
+    color: #e57300;
+    font-size: 24px;
+    font-weight: 400;
+}
+.zhengwen {
+    margin-top: 30px;
+}
+
+    .zhengwen p {
+        margin-bottom: 68px;
+        font-weight: 100;
+        font-size: 16px;
+        text-align: justify;
+        color:#565656;/*#565656*/
+        position: relative;
+    	top: 11px;
+    }
+
+    .zhengwen img {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        float: left;
+        margin-right: 40px;
+        margin-bottom: 40px;
+    }
+
+    .zhengwen strong {
+        display: block;
+        padding-bottom: 10px;
+        color: #414141;
+    }
+
+
+    .jia_name {
+    margin-top: 40px;
+}
+.jia_name h3{
+    margin: 8px 0px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.jia_name h4{
+    padding: 5px 0px 14px 0px;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+    .jia_name li {
+        float: left;
+    }
+
+    .jia_name p, h4 {
+        margin: 0;
+        padding: 0;
+        text-align: justify;
+    }
+
+    .jia_name li {
+        width: 472px;
+        margin: 0px 139px 0px 46px;
+        padding: 10px 0px;
+    }
+    .jiabin {
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+
+.jia_ul{
+     
+}
+#agenda{
+    background-color: #2f4a5e;
+}
+.white_font{
+    color:white;
+}
+.jia_intro{
+    padding: 30px 0px;
+    background-color: #f0f0f0;
+}
+.timetable{
+    background-color: white;
+    padding: 43px 0px;
+}
+.ad_line_h{
+    line-height: 2em;
+    color: #565656;
+}
+.zhuyi{
+	color:#e57300;
+}
+@media screen and (max-width: 640px) { /*当屏幕尺寸小于600px时，应用下面的CSS样式*/
+.zhengwen p{
+    position: static;
+    top: 0px;
+}
+	.ban_left .ban_wenzi p {
+	    font-size: 14px;
+	}
+	.left_title{
+		letter-spacing: 0px;
+	}
+	.aboutopen .dd{
+		width: auto;
+	}
+    .banner{
+        height: auto;
+    }
+    .jia_name li {
+        float: none;
+    }
+
+    .navbar-collapse {
+        display: none;
+    }
+
+    .navbar-header button {
+    }
+
+    .container {
+        width: auto;
+        padding: 0 10px;
+        min-width: initial;
+    }
+
+    .banner {
+        padding-bottom: 30px;
+    }
+
+    .ban_left {
+        width: 100%;
+        padding-top: 40px;
+        float: initial;
+    }
+
+    .btn_wrap {
+        float: none;
+        width: 181px;
+        margin: 0 auto;
+        height: 42px;
+        margin-top: 26px;
+        text-align: center;
+    }
+
+    .zhuyi {
+        padding-right: 0;
+        width: 200px;
+    }
+
+    .ban_right {
+        display: none;
+    }
+
+    .time {
+        float: none;
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    .address {
+        width: auto;
+        float: none;
+    }
+
+    .sponsor {
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+
+        .sponsor span {
+            display: block;
+            margin-bottom: 14px;
+        }
+
+        .sponsor img {
+            margin-bottom: 20px;
+        }
+
+    .below_ban p {
+        margin: 0;
+        padding: 0;
+        text-align: justify;
+    }
+
+    .address {
+        height: 57px;
+        margin-bottom: 40px;
+    }
+
+    .jia_name ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .jia_name li {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 50px;
+        width: auto;
+        height: auto !important;
+    }
+
+        .jia_name li h4 {
+            margin-bottom: 10px;
+        }
+
+    ul.time_detail {
+        margin: 0;
+        padding: 0;
+    }
+
+    .timet_con .jia_title {
+        margin-bottom: 20px;
+    }
+.ban_left
+    .aboutopen .dd {
+        width: 97%;
+        margin: 0 auto;
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .bg_pic {
+        height: auto;   
+    }
+}
+
+.nomargin_r{
+	margin-right: 0px !important;
+}
+@media only screen and (max-width: 640px) {
+   .jiabin_block {
+        width: 100%;
+        float: none;
+    }
+    .jiabin_block p {
+        padding-left: 0px;
+    }
+    .j_block_m_r {
+        margin-right: 0px;
+    }
+    .zhengwen img {
+        margin-right: 20px;
+        margin-bottom: 88px;
+    }
+}
+        @media only screen and (max-width: 640px) {
+            html, #map-canvas {
+                height: 220px;
+            }
+            .navbar-brand{
+                    margin-left:3%;
+            }
+            .navbar-toggle {
+                margin-right:5%;
+            }
+            .box_123 {
+                display: inline;
+            }
+            .my_baoming_btn {
+                margin-left: 0;
+                position: relative;
+                top: 0;
+            }
+
+        }
